@@ -1,0 +1,5 @@
+reference/
+report.*
+!report.tex
+!report.pdf
+
