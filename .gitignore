@@ -2,4 +2,6 @@ reference/
 report.*
 !report.tex
 !report.pdf
+*~
+.*.swp
 
