@@ -27,11 +27,16 @@
     
 \end{titlepage}
 
+
 % Print table of contents.
 \tableofcontents
 
 % Page break.
 \clearpage
+
+% Make pages from now on have a header.
+\pagestyle{myheadings}
+\markright{USPGamedev - Relatório}
 
 % O Giuliano pediu para fazer o relatório em duas partes, uma com explicações e outra com
 % resultados (usando imagens). A primeira ele estimou umas 5 páginas, e, para a segunda, 20.
@@ -72,18 +77,39 @@
         conteúdo desses cursos abrange ferramentas de desenvolvimento de software como:
 
         \begin{itemize}
-        \item {\bf CMake} - gerenciador de compilação de projetos de software multiplataforma;
-        \item {\bf Lua} - linguagem de script brasileira muito usada por jogos de renome no mercado; e
-        \item {\bf LÖVE} - uma plataforma para desenvolvimento de jogos em duas dimensões minimal e
-              gratuita.
+        
+            \item{\bf CMake \footnotemark} - gerenciador de construção de projetos de software
+                                             multiplataforma;
+            \footnotetext{Site oficial: \url{www.cmake.org}}
+            
+            \item {\bf Lua \footnotemark} - linguagem de script brasileira muito usada por jogos de
+                                            renome no mercado; e
+            \footnotetext{Site oficial: \url{www.lua.org}}
+
+            \item {\bf LÖVE \footnotemark} - uma plataforma para desenvolvimento de jogos em duas
+                                             dimensões minimal e gratuita.
+            \footnotetext{Site oficial: \url{www.love2d.org}}
+            
         \end{itemize}
         
         Mas também inclui ferramentas de propósito mais geral como:
         
         \begin{itemize}
-        \item {\bf Git} - ferramenta de controle de versão de projetos;
-        \item {\bf \LaTeX} - programa de formatação de texto muito utilizado no mundo acadêmico; e
-        \item {\bf SSH} - protocolo de rede que permite conexões seguras entre computadores.
+        
+            \item {\bf Git \footnotemark} - ferramenta de controle de versão de projetos;
+            \footnotetext{Site oficial: \url{www.git-scm.com}}
+            
+            \item {\bf \LaTeX \footnotemark} - programa de formatação de texto muito utilizado no
+                                               mundo acadêmico; e
+            \footnotetext{Site oficial: \url{www.latex-project.org}}
+            
+            \item {\bf SSH \footnotemark} - protocolo de rede que permite conexões seguras entre
+                                            computadores.
+            \footnotetext{
+                Sobre: \url{pt.wikipedia.org/wiki/SSH};
+                Site oficial: \url{http://www.ssh.com}
+            }
+        
         \end{itemize}
         
         Houve também um processo seletivo de novos membros que envolveu a confecção de quatro
@@ -101,7 +127,7 @@
         em Ciência da Computação justamente um estudo sobre como {\it Scrum} poderia ser aplicado à
         equipes de desenvolvimento de jogos, e usou o USPGameDev como caso de estudo. Portanto, para
         maiores detalhes sobre como a nossa metodologia funciona, recomenda-se a leitura da
-        monografia resultante de trabalho, que pode ser encontrada em:
+        monografia resultante desse trabalho, que pode ser encontrada em:
         
         \begin{center}
             \footnotesize
