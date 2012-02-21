@@ -2,6 +2,10 @@
 \usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage[pdftex]{graphicx}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+\usepackage[section]{placeins}
 %\usepackage{amsmath}
 
 
@@ -398,7 +402,174 @@
 
 %%% Parte II: Resultados. %%%
 
-\section{\LARGE Resultados}
+%   Possíveis maneiras de colocar uma imagem:
+
+%    \begin{figure}[htb]
+%        \centering
+%        \includegraphics[width=0.6\textwidth]{images/horus_01.png}
+%        \caption{Menu do jogo \textit{\textbf{Horus Eye}}}
+%        \label{fig:horus_01}
+%    \end{figure}
+    
+%    \begin{wrapfigure}{l}{8cm} % "placement and width parameter for the width of the image space.
+%        %\centering
+%        \includegraphics[width=0.6\textwidth]{images/horus_01.png}
+%        \caption{Menu do jogo \textit{\textbf{Horus Eye}}}
+%        \label{fig:horus_01}
+%    \end{wrapfigure}
+
+%    \begin{SCfigure}[0.8][htb]
+%        \centering
+%        \includegraphics[width=0.6\textwidth]{images/horus_01.png}
+%        \caption{ Menu do jogo \textit{\textbf{Horus Eye}} }
+%        \label{fig:horus_01}
+%    \end{SCfigure}
+
+%\renewcommand{\topfraction}{0.85}
+%\renewcommand{\textfraction}{0.1}
+%\renewcommand{\floatpagefraction}{0.75}
+
+\section{\LARGE Galeria de Resultados}
+
+    Essa seção foi reservada para exibir imagens, fotos \textit{screenshots} de diversos
+    resultados do USPGameDev, além de alguns \textit{Concept Arts}\footnotemark.
+        
+    \footnotetext{
+        Informações sobre \textit{Concept Art}: \url{http://en.wikipedia.org/wiki/Concept\_art}
+    }
+    
+        \FloatBarrier
+        
+        %%% Horus Eye %%%
+    
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/horus_01.png}
+            \caption{Menu do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:horus_01}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/horus_02.png}
+            \caption{Cena dentro do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:horus_02}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/horus_03.png}
+            \caption{Inimigos dentro do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:horus_03}
+        \end{figure}
+        
+        \clearpage
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/concept_hero.jpg}
+            \caption{\textit{Concept Art} do protagonista do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:concept_01}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/concept_mummy.jpg}
+            \caption{\textit{Concept Art} dos monstros do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:concept_02}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/concept_pharaoh.jpg}
+            \caption{\textit{Concept Art} do vilão do jogo \textit{\textbf{Horus Eye}}.}
+            \label{fig:concept_03}
+        \end{figure}
+        
+        %%% Pirates %%%
+    
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/pirates_01.png}
+            \caption{Estágio atual do desenvolvimento do \textit{\textbf{Pirates}}.}
+            \label{fig:pirates_01}
+        \end{figure}
+    
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/pirates_02.png}
+            \caption{Modelo tridimensional feito para o jogo \textit{\textbf{Pirates}}.}
+            \label{fig:pirates_02}
+        \end{figure}
+        
+        %%% Palestras %%%
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/palestra_01.jpg}
+            \caption{Palestra do USPGameDev, na qual o \textit{\textbf{Horus Eye}} foi lançado}
+            \label{fig:palestra_01}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/palestra_02.jpg}
+            \caption{Demonstração do \textit{\textbf{Horus Eye}} durante a palestra.}
+            \label{fig:palestra_02}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/palestra_03.jpg}
+            \caption{Participantes da palestra testando o \textit{\textbf{Horus Eye}}.}
+            \label{fig:palestra_03}
+        \end{figure}
+        
+        %%% Processo seletivo %%%
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/seletivo_01.jpg}
+            \caption{Apresentação de abertura do processo seletivo.}
+            \label{fig:seletivo_01}
+        \end{figure}
+        
+        \begin{figure}[htb]
+            \centering
+            \includegraphics[width=0.9\textwidth]{images/seletivo_02.jpg}
+            \caption{Participantes do processo seletivo.}
+            \label{fig:seletivo_02}
+        \end{figure}
+    
+    %\subsection{Imagens sobre o jogo \textit{\textbf{Horus Eye}}}
+        
+        %\FloatBarrier
+        
+        %\FloatBarrier
+    
+    %\subsection{Imagens sobre o jogo \textit{Pirates}}
+    
+        %\FloatBarrier
+        
+        %\FloatBarrier
+    
+    %\subsection{Imagens do site}
+    
+        %\FloatBarrier
+        
+        %\FloatBarrier
+        
+    %\subsection{Imagens das palestras}
+    
+        %\FloatBarrier
+        
+        %\FloatBarrier
+        
+    %\subsection{Imagens do processo seletivo}
+    
+        %\FloatBarrier
+        
+        %\FloatBarrier
 
 % End of document.
 \end{document}
